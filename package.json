@@ -1,0 +1,38 @@
+{
+    "name": "@stu43005/ckeditor-dropdown-select",
+    "version": "19.0.1",
+    "description": "Dropdown select feature for CKEditor 5.",
+    "keywords": [
+        "ckeditor",
+        "ckeditor5",
+        "ckeditor 5",
+        "ckeditor5-feature",
+        "ckeditor5-plugin"
+    ],
+    "dependencies": {
+        "@ckeditor/ckeditor5-core": "^19.0.1",
+        "@ckeditor/ckeditor5-engine": "^19.0.1",
+        "@ckeditor/ckeditor5-ui": "^19.0.1",
+        "@ckeditor/ckeditor5-utils": "^19.0.1",
+        "@ckeditor/ckeditor5-widget": "^19.1.0"
+    },
+    "devDependencies": {
+        "@ckeditor/ckeditor5-editor-classic": "^19.0.1",
+        "@ckeditor/ckeditor5-theme-lark": "^19.1.0"
+    },
+    "engines": {
+        "node": ">=12.0.0",
+        "npm": ">=5.7.1"
+    },
+    "author": "sty43005",
+    "license": "GPL-2.0-or-later",
+    "bugs": "https://github.com/stu43005/ckeditor-dropdown-select/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stu43005/ckeditor-dropdown-select.git"
+    },
+    "files": [
+        "src",
+        "theme"
+    ]
+}

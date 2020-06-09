@@ -1,0 +1,54 @@
+.ck-editor__editable .dropdown-select {
+  background-color: #ffa94d33;
+  padding: 4px 2px;
+  outline-offset: -2px;
+  line-height: 1em;
+  cursor: default;
+
+  &::after {
+    content: ' ';
+    display: inline-block;
+    background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIgNS41bDUuMjkzIDUuMjkzYTEgMSAwIDAwMS40MTQgMEwxNCA1LjUiIHN0cm9rZT0iIzc0NzQ3NCIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1em;
+    height: 1em;
+    opacity: .7;
+    margin: 2px;
+    vertical-align: top;
+  }
+
+  &::selection {
+    display: none;
+  }
+}
+
+/* @import "@ckeditor/ckeditor5-ui/theme/mixins/_rwd.css"; */
+
+.ck.ck-dropdown-form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: var(--ck-spacing-standard);
+
+  & .ck-labeled-field-view {
+    display: inline-block;
+  }
+
+  & .ck-label {
+    display: none;
+  }
+
+  /* @mixin ck-media-phone {
+		flex-wrap: wrap;
+
+		& .ck-labeled-field-view {
+			flex-basis: 100%;
+		}
+
+		& .ck-button {
+			flex-basis: 50%;
+		}
+	} */
+}
